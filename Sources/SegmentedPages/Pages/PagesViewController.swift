@@ -60,7 +60,7 @@ public final class PagesViewController: UIViewController {
         pageViewController.view.frame = .init(x: 0,
                                               y: segmentsHeight + view.safeAreaInsets.top,
                                               width: view.bounds.width,
-                                              height: view.bounds.height - segmentsHeight - view.safeAreaInsets.top - view.safeAreaInsets.bottom)
+                                              height: view.bounds.height - segmentsHeight - view.safeAreaInsets.top)
     }
 }
 
